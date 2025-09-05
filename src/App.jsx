@@ -7,7 +7,7 @@ import Signup from './pages/Signup';
 import { AuthProvider } from './state/AuthContext';
 import ProtectedRoute from './routes/ProtectedRoute';
 import { isAdmin } from './lib/appwrite';
-import Marketplace from "./pages/marketplace";
+import Marketplace from "./pages/Marketplace.jsx";
 import BuyPage from "./pages/BuyPage";
 import './styles.css';
 
