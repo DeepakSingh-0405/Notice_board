@@ -9,7 +9,7 @@ export default function NavBar() {
   const isAdmin = isAdminUtil(user);
 
   return (
-    <nav className="nav">
+    <nav className="nav z-10">
       <Link to="/" className="brand">🗞️ Community Board</Link>
       <div className="spacer" />
       
