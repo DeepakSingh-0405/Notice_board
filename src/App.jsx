@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import Notices from './pages/Notices';
-import Admin from './pages/admin.jsx';
+import Admin from './pages/Admin.jsx';
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import { AuthProvider } from './state/AuthContext';
